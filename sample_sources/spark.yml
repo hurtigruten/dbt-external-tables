@@ -34,7 +34,8 @@ sources:
 - name: event_inferred_schema
         description: "Snowplow events stored as partitioned parquet files in HDFS with inferred schema"
         external:
-          # Path can contain partitions such as: hdfs://.../events/my_partition=2022-03-01/events1.parquet
+          # File path can contain partitions such as: hdfs://.../events/my_partition=2022-03-01/events1.parquet
+          # These partitions are excluded from 'location'.
           location: 'hdfs://.../events/'
           using: parquet
 
