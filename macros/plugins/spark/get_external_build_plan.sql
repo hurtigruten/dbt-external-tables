@@ -3,7 +3,7 @@
     {% set build_plan = [] %}
 
     {% set old_relation = adapter.get_relation(
-        database = none,
+        database = source_node.database,
         schema = source_node.schema,
         identifier = source_node.identifier
     ) %}
