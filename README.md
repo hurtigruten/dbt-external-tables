@@ -1,3 +1,5 @@
+**NOTE: This repo is not actively maintained.**
+
 # Fork of dbt-external-tables
 This repo is a fork of [dbt-external-tables](https://github.com/dbt-labs/dbt-external-tables)
 with a few minor changes to better work with Databricks.
